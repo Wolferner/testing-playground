@@ -5,6 +5,7 @@ jest.mock('axios');
 
 describe('fetchData', () => {
 	let response;
+
 	beforeEach(() => {
 		response = {
 			data: [
